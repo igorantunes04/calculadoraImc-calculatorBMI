@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+} 
+body{
+    background-image: linear-gradient(red, black);
+    height: 100vh;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+}
+.calculadora{ 
+    border: solid 6px;
+    border-radius: 55px;
+    color: white;
+    height: 250px;
+    width: 195px;
+    padding: 75px;
+    margin: auto auto;
+    padding-top: 4em;
+}
+input{
+    text-align: center;
+    width: 204px;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif; 
+    cursor: pointer;
+}
+.botaoCalcular{
+    width: 208px;
+    color: black;
+    cursor: pointer;
+}
+.limpar{
+    width: 208px;
+    color: black;
+    cursor: pointer;
+}
+.botaoCalcular:hover{
+    background: black;
+    color: white;
+}
+.receber{
+    text-align: center;
+    border: solid;
+    width: 12.2em;
+    height: 5.5em;
+    padding: 3px;
+    font-size: 0.7;
+    font-style: italic;
+}
+.copy{
+    text-align: center;
+    font-size: 2em;
+}
+
